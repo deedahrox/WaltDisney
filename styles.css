@@ -1,0 +1,26 @@
+body {
+    background-color: #79BAC1;
+  }
+  
+  #title {
+    text-align: center;
+    font-family:'Montserrat', serif;
+  }
+  
+  #image, #img-caption {
+    width: 90%;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #image {
+    margin-bottom: 1rem;
+    max-width: 100%;
+  }
+  
+  #img-div {  background-color: CCC8AA;
+    padding: 2rem 0;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 0 #4A55A2;
+  }
