@@ -1,5 +1,6 @@
 body {
     background-color: #79BAC1;
+    text-align: center;
   }
   
   #title {
@@ -7,20 +8,44 @@ body {
     font-family:'Montserrat', serif;
   }
   
-  #image, #img-caption {
+  #image {
+    margin-bottom: 1rem 50% auto;
+    max-width: 50%;
+    border-radius: 50%;
+    border: 2px solid rgb(128, 13, 0); 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    text-align: center; 
+  }
+
+  #img-caption {
     width: 90%;
     display: block;
     margin: auto;
     text-align: center;
+    background-color: rgb(154, 195, 110);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    border: 10px rgb(54, 97, 161) ridge;
   }
-  
-  #image {
-    margin-bottom: 1rem;
-    max-width: 100%;
-  }
-  
-  #img-div {  background-color: CCC8AA;
-    padding: 2rem 0;
-    border-radius: 2rem;
+
+  /* #img-div {  
+    background-color: #F9DBBA;
+    padding: 2rem 30;
+    border-radius: 3rem;
+    max-width: 70%;
     box-shadow: 10px 10px 0 #4A55A2;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+  
+  h1 {
+    text-align: center;
+    color:rgb(22, 27, 179)
   }
